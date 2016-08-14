@@ -436,7 +436,7 @@ function GM:CanPlayerSuicide(ply)
 	return false
 end
 
-function GM:PlayerSay( ply, text, team)
+function GM:PlayerSayOFF( ply, text, team)
 	if !IsValid(ply) then
 		return
 	end
